@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header';
 import Aboutme from './components/Aboutme';
 import Blog from './components/Blog';
+import Quates from './components/Quates';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
      <Header/>
      <Aboutme/>
      <Blog/>
+     <Quates/>
     </div>
   );
 }

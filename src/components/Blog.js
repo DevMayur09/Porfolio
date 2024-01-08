@@ -4,7 +4,7 @@ import { TbBrandJavascript ,TbBrandTailwind} from "react-icons/tb"
 
 const Blog = () => {
   return (
-    <div className="bg-[#303030] w-full min-h-[400px] p-10">
+    <div className="bg-[#303030] w-full min-h-[80vh] p-10">
         <div className="flex text-center flex-col justify-center mx-auto">
             <div className="">
                 <h1 className="text-gray-400 font-extralight text-5xl border-b pb-5">Skills</h1>
