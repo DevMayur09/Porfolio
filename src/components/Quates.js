@@ -22,7 +22,7 @@ const Quates = () => {
       </div>
       <div className="relative w-full h-[80vh] flex justify-center items-center">
         <div
-          className="absolute left-4 p-1 text-white text-3xl cursor-pointer"
+          className="absolute left-10 p-1 text-white text-3xl cursor-pointer"
           onClick={onPrevClick}
         >
           <FaArrowLeftLong />
@@ -32,7 +32,7 @@ const Quates = () => {
             slideIndex === index && <Item item={slide} key={index} />
         )}
         <div
-          className="absolute right-4 p-1 text-white text-3xl cursor-pointer"
+          className="absolute right-10 p-1 text-white text-3xl cursor-pointer"
           onClick={onNextClick}
         >
           <FaArrowRightLong />

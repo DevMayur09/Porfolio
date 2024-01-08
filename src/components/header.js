@@ -3,7 +3,7 @@ import {useTypewriter,cursor} from 'react-simple-typewriter'
 const Header = () => {
 
   const [typeEffect] = useTypewriter({
-    words : ['Web developer', 'Artist','Blogger'],
+    words : ['Frontend developer', 'Artist','Tea Lover','Proud Indian'],
     loop:{},
     typeSpeed:150,
     deleteSpeed:150
@@ -38,7 +38,7 @@ const Header = () => {
           />
         </div>
         <div className="text-white block text-center mt-[5%]">
-          <h1 className="text-6xl">Mayur Thool</h1>
+          <h1 className="text-6xl font-cursive">Mayur Thool</h1>
           <div className="my-[40px] text-3xl font-bold">
             <span>I am a</span>
             <span className=""> {typeEffect}</span>

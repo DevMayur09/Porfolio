@@ -3,6 +3,7 @@ import Header from './components/header';
 import Aboutme from './components/Aboutme';
 import Blog from './components/Blog';
 import Quates from './components/Quates';
+import TeaWithMe from './components/TeaWithMe';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Aboutme/>
      <Blog/>
      <Quates/>
+     <TeaWithMe/>
     </div>
   );
 }

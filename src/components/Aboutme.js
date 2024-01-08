@@ -16,7 +16,7 @@ const Aboutme = () => {
           <div>
             <ul className="flex space-x-2 justify-between p-4 mx-14 ">
               <li className="text-gray-700 text-[50px]">
-                <a>
+                <a href="https://github.com/DevMayur09">
                   <FaGithub />
                 </a>
               </li>
@@ -43,8 +43,7 @@ const Aboutme = () => {
             About Me
           </h1>
           <p className="my-5 text-gray-500">
-            I am 27 year old frontend web developer,living in the pune a beautiful
-            city of Maharashtra. I am computer science engineer exploring
+            I am 27 year old frontend web developer, living in Pune Maharashtra. I am computer science engineer exploring
             world of web.
           </p>
           <p className="my-5  text-gray-500">
